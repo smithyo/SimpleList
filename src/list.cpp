@@ -74,6 +74,7 @@ void List::delete_item() {
         int choiceNum;
         cin >> choiceNum;
         list.erase(list.begin()+choiceNum);
+
         
     }
     else {
